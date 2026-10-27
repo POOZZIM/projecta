@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 첫 HTML 문서</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>안녕하세요! HTML 문서입니다.</h1>
+        <p>이 문서는 가장 기본적인 HTML5 구조로 작성되었습니다.</p>
+        
+        <ul>
+            <li><strong>HTML:</strong> 웹페이지의 구조를 만듭니다.</li>
+            <li><strong>CSS:</strong> 웹페이지의 디자인을 꾸밉니다.</li>
+            <li><strong>JavaScript:</strong> 웹페이지에 동적인 기능을 더합니다.</li>
+        </ul>
+
+        <button onclick="showAlert()">클릭해보세요</button>
+    </div>
+
+    <script>
+        function showAlert() {
+            alert('버튼이 정상적으로 작동합니다!');
+        }
+    </script>
+</body>
+</html>
